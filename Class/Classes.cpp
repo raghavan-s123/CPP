@@ -5,10 +5,10 @@ class Animal {
     private:
         int n;
     public:
-        Animal();
+        Animal();//Decalration of a class here
 };
 Animal::Animal(){
-    cout << "HELLO";
+    cout << "HELLO"; //Definition of class here
 }
 int main(){
     Animal obj;
